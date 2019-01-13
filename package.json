@@ -1,0 +1,31 @@
+{
+    "fitbit": {
+        "appUUID": "058e988b-bc90-4b82-a372-b44168e003d9",
+        "appType": "clockface",
+        "appDisplayName": "CATHERHFIT",
+        "iconFile": "resources/icon.png",
+        "wipeColor": "",
+        "requestedPermissions": [
+            "access_activity",
+            "access_user_profile",
+            "access_heart_rate"
+        ],
+        "buildTargets": [
+            "meson"
+        ],
+        "i18n": {
+            "en": {
+                "name": "Sistem Analog"
+            }
+        }
+    },
+    "devDependencies": {
+        "@fitbit/sdk": "~3.0.0",
+        "@fitbit/sdk-cli": "^1.5.0",
+        "fitbit-sdk-types": "^3.0.0"
+    },
+    "dependencies": {},
+    "scripts": {
+        "build": "fitbit-build"
+    }
+}
