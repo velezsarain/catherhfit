@@ -8,6 +8,7 @@
         "node_modules/tslint-eslint-rules/dist/rules"
     ],
     "rules" : {
-        "no-console": false
+        "no-implicit-dependencies": false,
+        "ter-indent": [true, 4]
     }
 }

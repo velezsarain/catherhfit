@@ -22,10 +22,17 @@
     "devDependencies": {
         "@fitbit/sdk": "~3.0.0",
         "@fitbit/sdk-cli": "^1.5.0",
-        "fitbit-sdk-types": "^3.0.0"
+        "fitbit-sdk-types": "^3.0.0",
+        "tslint": "^5.12.1",
+        "tslint-config-standard": "^8.0.1",
+        "tslint-eslint-rules": "^5.4.0"
     },
     "dependencies": {},
     "scripts": {
-        "build": "fitbit-build"
-    }
+        "build": "fitbit-build",
+        "lint": "tslint --project tsconfig.json",
+        "test": "npm run lint && npm run build"
+    },
+    "license": "GPL-3.0",
+    "repository": "github:velezsarain/catherhfit"
 }

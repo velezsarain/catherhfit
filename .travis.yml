@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - "10"
+cache: npm
+env :
+  - NODE_ENV=development
+
+before_install:
+  - sudo apt-get install -y libsecret-1-0:amd64
