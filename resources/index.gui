@@ -1,3 +1,47 @@
 <svg class="background">
-  <text id="label" />
+    <defs>
+        <symbol id="numbered-hour-marker">
+            <rect x="-5" y="-149" width="10" height="20" fill="inherit" />
+        </symbol>
+        <symbol id="hour-marker">
+            <rect x="-3" y="-150" width="6" height="50" fill="inherit" />
+        </symbol>
+    </defs>
+
+    <g transform="translate(50%,50%)">
+        <use href="#numbered-hour-marker" fill="#090909" />
+        <g transform="rotate(90)">
+            <use href="#numbered-hour-marker" fill="#090909" />
+        </g>
+        <g transform="rotate(180)">
+            <use href="#numbered-hour-marker" fill="#090909" />
+        </g>
+        <g transform="rotate(270)">
+            <use href="#numbered-hour-marker" fill="#090909" />
+        </g>
+        <g transform="rotate(30)">
+            <use href="#hour-marker" fill="#090909" />
+        </g>
+        <g transform="rotate(60)">
+            <use href="#hour-marker" fill="#090909" />
+        </g>
+        <g transform="rotate(120)">
+            <use href="#hour-marker" fill="#090909" />
+        </g>
+        <g transform="rotate(150)">
+            <use href="#hour-marker" fill="#090909" />
+        </g>
+        <g transform="rotate(210)">
+            <use href="#hour-marker" fill="#090909" />
+        </g>
+        <g transform="rotate(240)">
+            <use href="#hour-marker" fill="#090909" />
+        </g>
+        <g transform="rotate(300)">
+            <use href="#hour-marker" fill="#090909" />
+        </g>
+        <g transform="rotate(330)">
+            <use href="#hour-marker" fill="#090909" />
+        </g>
+    </g>
 </svg>
