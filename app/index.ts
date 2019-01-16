@@ -7,16 +7,12 @@ clock.granularity = 'seconds'
 
 // Get a handle on the <text> element
 
-
 // Update the <text> element every tick with the current time
-clock.ontick = (evt) => {
-
-}
+// clock.ontick = (evt) => {
+// }
 
 // diameter = 625
 // 1% = 6.25
-// 12 3 6 9 H = 44 -> 7% = 21px
-// 12 3 6 9 W = 22 -> 3.5% = 10
-
-// H  51.84
-// W 6 OR 12
+// numbered-hour-marker -> W 7% 21px | H 3.5% 10px
+// hour-marker -> W 4% 12px | H 16% 50px
+// minute-marker -> W 1% 3px | H 5% 15px
