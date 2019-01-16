@@ -81,9 +81,9 @@
         <g transform="rotate(330)">
             <use href="#minute-marker" fill="#212121" />
         </g>
-        <text x="0" y="-84" font-family="System-Bold" fill="black" font-size="50" text-anchor="middle">12</text>
-        <text id="marker-3" x="112" y="18" font-family="System-Bold" fill="black" font-size="50" text-anchor="middle"></text>
-        <text x="0" y="118" font-family="System-Bold" fill="black" font-size="50" text-anchor="middle">6</text>
-        <text id="marker-9" x="-104" y="18" font-family="System-Bold" fill="black" font-size="50" text-anchor="middle"></text>
+        <text x="0" y="-84" font-family="System-Bold" fill="#212121" font-size="50" text-anchor="middle">12</text>
+        <text id="marker-3" x="112" y="18" font-family="System-Bold" fill="#212121" font-size="50" text-anchor="middle"></text>
+        <text x="0" y="118" font-family="System-Bold" fill="#212121" font-size="50" text-anchor="middle">6</text>
+        <text id="marker-9" x="-104" y="18" font-family="System-Bold" fill="#212121" font-size="50" text-anchor="middle"></text>
     </g>
 </svg>
