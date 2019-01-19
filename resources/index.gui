@@ -92,16 +92,16 @@
         <text x="-106" y="18" font-family="System-Bold" fill="#212121" font-size="50" text-anchor="middle">9</text>
 
         <g id="hours-hand">
-            <line x1="0" y1="0" x2="0" y2="-92" stroke-width="12" fill="#CCCCCC" />
+            <line x1="0" y1="0" x2="0" y2="-92" stroke-width="12" fill="#AFAFAF" />
             <line x1="0" y1="-36" x2="0" y2="-92" stroke-width="12" fill="#212121" />
             <line x1="0" y1="-37" x2="0" y2="-91" stroke-width="8" fill="#464646" />
         </g>
         <g id="minutes-hand">
-            <line x1="0" y1="0" x2="0" y2="-128" stroke-width="10" fill="#CCCCCC" />
-            <line x1="0" y1="-36" x2="0" y2="-128" stroke-width="10" fill="#212121" />
+            <line x1="0" y1="0" x2="0" y2="-128" stroke-width="12" fill="#AFAFAF" />
+            <line x1="0" y1="-36" x2="0" y2="-128" stroke-width="12" fill="#212121" />
             <line x1="0" y1="-37" x2="0" y2="-127" stroke-width="6" fill="#464646" />
         </g>
-        <circle cx="0%" cy="0%" r="10" fill="#CCCCCC" />
+        <circle cx="0%" cy="0%" r="10" fill="#AFAFAF" />
         <g id="seconds-hand">
             <circle cx="0%" cy="0%" r="6" fill="firebrick" />
             <rect id="seconds-hand" x="-1" y="-139" width="2" height="138" fill="firebrick" />
