@@ -15,7 +15,37 @@
         ],
         "i18n": {
             "en": {
-                "name": "Sistem Analog"
+                "name": "CATHERHFIT"
+            },
+            "es": {
+                "name": "CATHERHFIT"
+            },
+            "fr": {
+                "name": "CATHERHFIT"
+            },
+            "de": {
+                "name": "CATHERHFIT"
+            },
+            "it": {
+                "name": "CATHERHFIT"
+            },
+            "ja": {
+                "name": "CATHERHFIT"
+            },
+            "ko": {
+                "name": "CATHERHFIT"
+            },
+            "nl": {
+                "name": "CATHERHFIT"
+            },
+            "sv": {
+                "name": "CATHERHFIT"
+            },
+            "zh-cn": {
+                "name": "CATHERHFIT"
+            },
+            "zh-tw": {
+                "name": "CATHERHFIT"
             }
         }
     },
