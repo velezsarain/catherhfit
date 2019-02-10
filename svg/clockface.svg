@@ -1,12 +1,120 @@
-<svg version="1.1"
-     baseProfile="full"
-     width="300" height="300"
-     xmlns="http://www.w3.org/2000/svg">
+<svg version="1.1" baseProfile="full" width="300" height="300" 
+    xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <style type="text/css">
+            <![CDATA[
+    @font-face {
+      font-family: Abandoned;
+      src: url('./fonts/Abandoned.ttf');
+    }
+   ]]>
+        </style>
+    </defs>
 
-  <rect width="100%" height="100%" fill="red" />
+    <rect width="100%" height="100%" fill="#FFFFFF" />
 
-  <circle cx="150" cy="100" r="80" fill="green" />
+    <text x="10" y="20" style="font-family: Abandoned;
+               font-size : 24;">12</text>
 
-  <text x="150" y="125" font-size="60" text-anchor="middle" fill="white">SVG</text>
+    <symbol id="number-hour-marker">
+        <g transform="translate(145,1)">
+            <rect width="10" height="20" fill="#000000" />
+        </g>
+    </symbol>
 
+    <symbol id="hour-marker">
+        <g transform="rotate(30, 150, 150)">
+            <g transform="translate(144, 1)">
+                <polygon points="0,0 12,0 9,50 3,50" fill="#000000" />
+            </g>
+        </g>
+        <g transform="rotate(60, 150, 150)">
+            <g transform="translate(144, 1)">
+                <polygon points="0,0 12,0 9,50 3,50" fill="#000000" />
+            </g>
+        </g>
+    </symbol>
+
+    <symbol id="minute-marker">
+        <g transform="rotate(6, 150, 150)">
+            <g transform="translate(148, 1)">
+                <rect width="4" height="14" fill="inherit" />
+            </g>
+        </g>
+        <g transform="rotate(12, 150, 150)">
+            <g transform="translate(148, 1)">
+                <rect width="4" height="14" fill="inherit" />
+            </g>
+        </g>
+        <g transform="rotate(18, 150, 150)">
+            <g transform="translate(148, 1)">
+                <rect width="4" height="14" fill="inherit" />
+            </g>
+        </g>
+        <g transform="rotate(24, 150, 150)">
+            <g transform="translate(148, 1)">
+                <rect width="4" height="14" fill="inherit" />
+            </g>
+        </g>
+    </symbol>
+
+    <use href="#number-hour-marker" />
+    <g transform="rotate(90, 150, 150)">
+        <use href="#number-hour-marker" />
+    </g>
+    <g transform="rotate(180, 150, 150)">
+        <use href="#number-hour-marker" />
+    </g>
+    <g transform="rotate(270, 150, 150)">
+        <use href="#number-hour-marker" />
+    </g>
+
+    <use href="#hour-marker" />
+    <g transform="rotate(90, 150, 150)">
+        <use href="#hour-marker" />
+    </g>
+    <g transform="rotate(180, 150, 150)">
+        <use href="#hour-marker" />
+    </g>
+    <g transform="rotate(270, 150, 150)">
+        <use href="#hour-marker" />
+    </g>
+
+    <use href="#minute-marker" />
+    <g transform="rotate(30, 150, 150)">
+        <use href="#minute-marker" />
+    </g>
+    <g transform="rotate(30, 150, 150)">
+        <use href="#minute-marker" />
+    </g>
+    <g transform="rotate(60, 150, 150)">
+        <use href="#minute-marker" />
+    </g>
+    <g transform="rotate(90, 150, 150)">
+        <use href="#minute-marker" />
+    </g>
+    <g transform="rotate(120, 150, 150)">
+        <use href="#minute-marker" />
+    </g>
+    <g transform="rotate(150, 150, 150)">
+        <use href="#minute-marker" />
+    </g>
+    <g transform="rotate(180, 150, 150)">
+        <use href="#minute-marker" />
+    </g>
+    <g transform="rotate(210, 150, 150)">
+        <use href="#minute-marker" />
+    </g>
+    <g transform="rotate(240, 150, 150)">
+        <use href="#minute-marker" />
+    </g>
+    <g transform="rotate(270, 150, 150)">
+        <use href="#minute-marker" />
+    </g>
+    <g transform="rotate(300, 150, 150)">
+        <use href="#minute-marker" />
+    </g>
+    <g transform="rotate(330, 150, 150)">
+        <use href="#minute-marker" />
+    </g>
 </svg>
