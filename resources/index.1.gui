@@ -1,0 +1,124 @@
+<svg class="background">
+    <defs>
+        <symbol id="number-hour-marker">
+            <rect x="0%-5" y="-50%+1" width="10" height="20" fill="inherit" />
+        </symbol>
+
+        <symbol id="hour-marker">
+            <g transform="rotate(30)">
+                <rect x="0%-3" y="-50%+1" width="6" height="38" fill="inherit" />
+            </g>
+            <g transform="rotate(60)">
+                <rect x="0%-3" y="-50%+1" width="6" height="38" fill="inherit" />
+            </g>
+        </symbol>
+
+        <symbol id="minute-marker">
+            <g transform="rotate(6)">
+                <rect x="0%-2" y="-50%+1" width="4" height="15" fill="inherit" />
+            </g>
+            <g transform="rotate(12)">
+                <rect x="0%-2" y="-50%+1" width="4" height="15" fill="inherit" />
+            </g>
+            <g transform="rotate(18)">
+                <rect x="0%-2" y="-50%+1" width="4" height="15" fill="inherit" />
+            </g>
+            <g transform="rotate(24)">
+                <rect x="0%-2" y="-50%+1" width="4" height="15" fill="inherit" />
+            </g>
+        </symbol>
+
+        <symbol id="heart-icon-animated">
+            <image x="127" y="130" width="18" height="18" href="stat_hr_solid_24px.png" fill="red" />
+            <animate attributeName="opacity" begin="enable" from="1" to="0.25" dur="1" final="restore"/>
+        </symbol>
+    </defs>
+
+    <g transform="translate(50%,50%)">
+        <g fill="#212121">
+            <use href="#number-hour-marker" />
+            <g transform="rotate(90)">
+                <use href="#number-hour-marker" />
+            </g>
+            <g transform="rotate(180)">
+                <use href="#number-hour-marker" />
+            </g>
+            <g transform="rotate(270)">
+                <use href="#number-hour-marker" />
+            </g>
+
+            <use href="#hour-marker" />
+            <g transform="rotate(90)">
+                <use href="#hour-marker" />
+            </g>
+            <g transform="rotate(180)">
+                <use href="#hour-marker" />
+            </g>
+            <g transform="rotate(270)">
+                <use href="#hour-marker" />
+            </g>
+
+            <use href="#minute-marker" />
+            <g transform="rotate(30)">
+                <use href="#minute-marker" />
+            </g>
+            <g transform="rotate(60)">
+                <use href="#minute-marker" />
+            </g>
+            <g transform="rotate(90)">
+                <use href="#minute-marker" />
+            </g>
+            <g transform="rotate(120)">
+                <use href="#minute-marker" />
+            </g>
+            <g transform="rotate(150)">
+                <use href="#minute-marker" />
+            </g>
+            <g transform="rotate(180)">
+                <use href="#minute-marker" />
+            </g>
+            <g transform="rotate(210)">
+                <use href="#minute-marker" />
+            </g>
+            <g transform="rotate(240)">
+                <use href="#minute-marker" />
+            </g>
+            <g transform="rotate(270)">
+                <use href="#minute-marker" />
+            </g>
+            <g transform="rotate(300)">
+                <use href="#minute-marker" />
+            </g>
+            <g transform="rotate(330)">
+                <use href="#minute-marker" />
+            </g>
+
+            <text x="0" y="-84" font-family="System-Bold" font-size="50" text-anchor="middle">12</text>
+            <text x="120" y="18" font-family="System-Bold" font-size="50" text-anchor="end">3</text>
+            <text x="0" y="118" font-family="System-Bold" font-size="50" text-anchor="middle">6</text>
+            <text x="-118" y="18" font-family="System-Bold" font-size="50" text-anchor="start">9</text>
+        </g>
+
+        <g id="hours-hand">
+            <line x1="0" y1="0" x2="0" y2="-92" stroke-width="10" fill="#AFAFAF" />
+            <line x1="0" y1="-36" x2="0" y2="-92" stroke-width="14" fill="#212121" />
+            <line x1="0" y1="-36" x2="0" y2="-92" stroke-width="10" fill="#4C4C4C" />
+        </g>
+        <g id="minutes-hand">
+            <line x1="0" y1="0" x2="0" y2="-128" stroke-width="6" fill="#AFAFAF" />
+            <line x1="0" y1="-36" x2="0" y2="-128" stroke-width="10" fill="#212121" />
+            <line x1="0" y1="-36" x2="0" y2="-128" stroke-width="6" fill="#4C4C4C" />
+        </g>
+        <circle cx="0%" cy="0%" r="8" fill="#AFAFAF" />
+        <g id="seconds-hand">
+            <circle cx="0%" cy="0%" r="6" fill="firebrick" />
+            <rect id="seconds-hand" x="-1" y="-139" width="2" height="138" fill="firebrick" />
+            <rect id="seconds-hand" x="-2" y="0" width="4" height="48" fill="firebrick" />
+        </g>
+        <circle cx="0%" cy="0%" r="2" fill="#F5F1E8" />
+
+        <text id="date-text" x="-145" y="145" font-family="System-Bold" font-size="18" text-anchor="start" text-length='8' fill="#212121" />
+        <text id="hr-text" x="125" y="145" font-family="System-Bold" font-size="18" text-anchor="end" text-length='8' fill="#212121"> 150</text>
+        <use id="heart-icon" href="#heart-icon-animated" />
+    </g>
+</svg>
